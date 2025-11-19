@@ -23,10 +23,20 @@ body {
 }
 .club-form-title {
     color: #31694E;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
 }
-.form-item:nth-child(1) label{
+.form-item label{
     width: 100%;
     display: block;
     margin-bottom: .5rem;
     
+    
 }
+
+.form-item input{
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
