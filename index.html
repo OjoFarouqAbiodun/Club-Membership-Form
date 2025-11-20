@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Membership Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="club-form">
 
         <h1 class="club-form-title">club membership form</h1>
 
         <form>
-            <div class="form-item">
-                <label for="first-name">First Name</label>
-                <input type="text" placeholder="Enter your first name">
+            <div class="fullname">
+                <div class="form-item">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Enter your first name">
+                </div>
+
+                <div class="form-item">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" placeholder="Enter your last name">
+                </div>
             </div>
 
-            <div class="form-item">
-                <label for="last-name">Last Name</label>
-                <input type="text" placeholder="Enter your last name">
-            </div>
 
             <div class="form-item">
                 <label for="email">Email Address</label>
@@ -29,22 +34,44 @@
 
             <div class="form-item">
                 <label for="phone-number">Phone Number</label>
-                
+
                 <div class="telephone">
                     <select name="countrycode" id="countryCode">
-                    <option value="+1"> +1 United States</option>
-                    <option value="+234"> +234 Nigeria</option>
-                    <option value="+44"> +44 United Kingdom</option>
-                    <option value="+27"> +27 South Africa</option>
-                </select>
-                <input type="tel">
+                        <option value="+1"> +1 United States</option>
+                        <option value="+234"> +234 Nigeria</option>
+                        <option value="+44"> +44 United Kingdom</option>
+                        <option value="+27"> +27 South Africa</option>
+                    </select>
+                    <input type="tel">
                 </div>
-                
             </div>
+
+            <div class="form-item">
+                <label for="country">Country</label>
+                <input type="text" placeholder="Enter your Country's name">
+            </div>
+
+            <div class="form-item">
+                <label for="dob">Date of Birth</label>
+                <input type="date">
+            </div>
+
+            <div class="form-item">
+                <label for="membership-type">Membership Type</label>
+                
+                <select name="membership-type" id="membership-type">
+                    <option value=""> Choose Option </option>
+                    <option value=""> Premium </option>
+                    <option value=""> Classic </option>
+                </select>
+            </div>
+
+            
 
 
 
         </form>
     </div>
 </body>
+
 </html>
