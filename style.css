@@ -19,7 +19,7 @@ body {
     padding: 1rem;
     margin: .75rem;
     border-radius: .5rem;
-    min-width: 490px;
+    /* min-width: 490px; */
 }
 .club-form-title {
     color: #31694E;
@@ -89,6 +89,10 @@ body {
     outline: none;
 }
 
+.dob input[type='date'] {
+    color: #31694E;
+}
+
 .about-us-question select{
     height: 2rem;
     border: none;
@@ -115,4 +119,11 @@ body {
 
 .submit-btn:hover {
     background-color: #0b4228;
+}
+
+@media (max-width: 600px ) {
+    .fullname {
+        display: block;
+    }
+    
 }
