@@ -83,7 +83,7 @@ body {
     border: none;
     padding: .3rem;
     color: #31694E;
-    background-color: none;
+    background-color: white;
 }
 
 #membership-type:focus {
@@ -93,7 +93,7 @@ body {
 
 .dob input[type='date'] {
     color: #31694E;
-    background-color: none;
+    background-color: white;
 }
 
 .about-us-question select{
@@ -102,7 +102,7 @@ body {
     padding: .3rem;
     width: 100%;
     color: #31694E;
-    background-color: none;  
+    background-color: white;  
 }
 
 .about-us-question select:focus {
