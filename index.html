@@ -58,7 +58,7 @@
 
             <div class="form-item">
                 <label for="membership-type">Membership Type</label>
-                
+
                 <select name="membership-type" id="membership-type">
                     <option value=""> Choose Option </option>
                     <option value=""> Premium </option>
@@ -66,11 +66,44 @@
                 </select>
             </div>
 
-            
+            <div class="form-item">
+                <label for="e-contant-name">Emergency Contact Name</label>
+                <input type="text">
+            </div>
 
+            <div class="form-item">
+                <label for="e-contant-number">Emergency Contact Number</label>
 
+                <div class="telephone">
+                    <select name="countrycode" id="countryCode">
+                        <option value="+1"> +1 United States</option>
+                        <option value="+234"> +234 Nigeria</option>
+                        <option value="+44"> +44 United Kingdom</option>
+                        <option value="+27"> +27 South Africa</option>
+                    </select>
+                    <input type="tel">
+                </div>
+            </div>
 
+            <div class="form-item">
+                <label for="question">Anything specific you want us to know?</label>
+                <input type="text">
+            </div>
+
+             <div class="form-item about-us-question">
+                <label for="about-us-question">How did you hear about us?</label>
+
+                <select name="about-us-question" id="about-us-question">
+                    <option value=""> Choose Option </option>
+                    <option value=""> Facebook </option>
+                    <option value=""> LinkedIn </option>
+                    <option value=""> Instagram </option>
+                    <option value=""> Friend </option>
+                </select>
+            </div>
         </form>
+
+        <button class="submit-btn" type="submit">Submit</button>
     </div>
 </body>
 
