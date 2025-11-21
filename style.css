@@ -83,7 +83,7 @@ body {
     border: none;
     padding: .3rem;
     color: #31694E;
-    background-color: white;
+    background-color: none;
 }
 
 #membership-type:focus {
