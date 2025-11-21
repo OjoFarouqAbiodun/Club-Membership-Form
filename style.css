@@ -62,6 +62,7 @@ body {
     height: 2rem;
     border: none;
     padding: .3rem;
+    color: #31694E
 }
 
 .telephone select:focus {
@@ -80,6 +81,7 @@ body {
     height: 2rem;
     border: none;
     padding: .3rem;
+     color: #31694E
 }
 
 #membership-type:focus {
@@ -92,6 +94,7 @@ body {
     border: none;
     padding: .3rem;
     width: 100%;
+    color: #31694E;    
 }
 
 .about-us-question select:focus {
