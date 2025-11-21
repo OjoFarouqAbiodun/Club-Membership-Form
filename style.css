@@ -36,6 +36,30 @@ body {
     color: #0b4228;
 }
 
+select {
+    background-color: white;
+    color: #31694E;
+    height: 2rem;
+    border: none;
+    padding: .3rem;
+}
+
+select:focus {
+    border: 2px solid #31694E;
+    outline: none;
+}
+
+/* Fix date of birth background color */
+.dob input[type='date'] {
+    background-color: white;
+    color: #31694E;
+}
+
+.dob input[type='date']:focus {
+    border: 2px solid #31694E;
+    outline: none;
+}
+
 .form-item input{
     width: 100%;
     margin-bottom: .5rem;
