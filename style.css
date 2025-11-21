@@ -93,7 +93,7 @@ body {
 
 .dob input[type='date'] {
     color: #31694E;
-    background-color: white;
+    background-color: none;
 }
 
 .about-us-question select{
@@ -101,17 +101,13 @@ body {
     border: none;
     padding: .3rem;
     width: 100%;
-    color: #31694E;    
+    color: #31694E;
+    background-color: none  
 }
 
 .about-us-question select:focus {
     border: 2px solid #31694E;
     outline: none;
-}
-
-.about-us-question input[type='date'] {
-    color: #31694E;
-    background-color: white;
 }
 
 .submit-btn {
