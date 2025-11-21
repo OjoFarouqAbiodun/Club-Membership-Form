@@ -17,19 +17,19 @@
             <div class="fullname">
                 <div class="form-item">
                     <label for="first-name">First Name</label>
-                    <input type="text" >
+                    <input type="text" id="firstName">
                 </div>
 
                 <div class="form-item">
                     <label for="last-name">Last Name</label>
-                    <input type="text" >
+                    <input type="text" id="lastName">
                 </div>
             </div>
 
 
             <div class="form-item">
                 <label for="email">Email Address</label>
-                <input type="email" >
+                <input type="email" id="email">
             </div>
 
             <div class="form-item">
@@ -42,18 +42,18 @@
                         <option value="+44"> +44 United Kingdom</option>
                         <option value="+27"> +27 South Africa</option>
                     </select>
-                    <input type="tel">
+                    <input type="tel" id="phoneNumber">
                 </div>
             </div>
 
             <div class="form-item">
                 <label for="country">Country</label>
-                <input type="text" >
+                <input type="text" id="country">
             </div>
 
             <div class="form-item dob">
                 <label for="dob">Date of Birth</label>
-                <input type="date">
+                <input type="date" id="dob">
             </div>
 
             <div class="form-item">
@@ -67,8 +67,8 @@
             </div>
 
             <div class="form-item">
-                <label for="e-contant-name">Emergency Contact Name</label>
-                <input type="text">
+                <label for="e-contact-name">Emergency Contact Name</label>
+                <input type="text" id="emergencyName">
             </div>
 
             <div class="form-item">
@@ -81,7 +81,7 @@
                         <option value="+44"> +44 United Kingdom</option>
                         <option value="+27"> +27 South Africa</option>
                     </select>
-                    <input type="tel">
+                    <input type="tel" id="emergencyPhone">
                 </div>
             </div>
 
@@ -105,6 +105,8 @@
 
         <button class="submit-btn" type="submit">Submit</button>
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
